@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>博登弹幕视频网-中国第一山寨基地</title>
+	<style type="text/css">
+		.clearfix:after
+					{   
+						content:"\0020"; 
+						height:0; 
+						display:block; 
+						clear:both;}
+
+		p 	{
+				font-size: 15px;
+				font-weight: bold ;
+				color: red ;
+			}
+		#tou
+			{
+				position: absolute;
+				top: -500px;
+				width: 100%;
+				height: 40px;
+				min-width: 980px;
+				background-color: #fff;
+				color: #464646;
+				top: 0 !important;
+				text-align: left;
+				font-size: 25px;
+			
+			font-family: Tahoma,"simsun";
+			border: 1px solid #c9c9c9;
+			border-width: 1px 0;
+			margin-left:auto;
+			margin-right:auto;
+
+			}
+		#toubiao
+				{
+					width: 980px;
+					padding: 0 5px;
+					margin: 0 auto;
+					position: relative;
+					z-index: 100;
+					line-height: 40px;
+					list-style: none;
+					display: block;
+					list-style-type: disc;
+					
+					color: #464646;
+					text-align: left;
+					font-size: 12px;
+					font-family: Tahoma,"simsun";
+					font: 12px/1.5 tahoma,'\5b8b\4f53',sans-serif;
+					margin: 0 auto;
+				}
+		.touli1
+				{
+             		width: 205px;
+					padding: 0 15px 0 0;
+					background-position: 0 -40px;
+					height: 40px;
+					overflow: hidden;
+					background: url(http://ossweb-img.qq.com/images/js/topfiles/ost1310/ostb.png) no-repeat 0 -40px;
+			display: list-item;
+			text-align: -webkit-match-parent;
+			line-height: 40px;
+			list-style: none;
+			color: #464646;
+			text-align: left;
+			font-size: 40px;
+			font-family: Tahoma,"simsun";
+			float: left;
+			text-indent:-9999px;
+			}
+		.touli2
+				{
+					width: 230px;
+					height: 40px;
+					overflow: hidden;
+					float: left;
+					display: list-item;
+					text-align: -webkit-match-parent;
+
+				}
+		#youli1
+				{
+					float: right;
+					padding-right: 12px;
+					line-height: 40px;
+					position: relative;
+					background: url(http://ossweb-img.qq.com/images/js/topfiles/ost1310/ostb.png) no-repeat 100% -80px;
+					display: list-item;
+					text-align: -webkit-match-parent;
+					font-size: 12px;
+					font-family: Tahoma,"simsun";
+
+				}
+		#youbiao
+				{
+					float: left;
+					padding-left: 22px;
+					list-style: none;
+					padding: 0;
+					height: 40px;
+					overflow: hidden;
+					background: url(http://ossweb-img.qq.com/images/js/topfiles/ost1310/ostb.png) no-repeat -263px -120px;
+					margin: 0;
+					padding: 0;
+					line-height: 40px;
+
+				}
+		youbiao.111
+					{
+						padding: 0 12px;
+						float: left;
+						display: list-item;
+						text-align: -webkit-match-parent;
+						line-height: 40px;
+					}
+		youbiao.112
+					{	
+						float: left;
+						background: url(http://ossweb-img.qq.com/images/js/topfiles/ost1310/ostb.png) no-repeat -60px -120px;
+
+					}
+		body,dl,dd,ul,ol,h1,h2,h3,h4,h5,h6,p,form{margin:0; padding:0;}
+
+.clearfix:after
+			{   
+				content:"\0020"; 
+				height:0; 
+				display:block; 
+				clear:both;
+			}
+.hidden
+			{
+				display:block;
+				width:0;
+				height:0;
+				overflow:hidden;
+			}
+.moban
+			{ 
+				width:100%;
+			 min-width:1000px; 
+			 height:932px;  
+			 font-family:'\5FAE\8F6F\96C5\9ED1'; 
+			 background:url(http://ossweb-img.qq.com/images/jf/act/a20141118index/h_bg.jpg) no-repeat top center;
+			}
+.header
+			{   
+				width:100%; 
+				height:450px; 
+				background:url(http://ossweb-img.qq.com/images/jf/act/a20141118index/h_bg4.jpg) no-repeat top center;}
+.head1,.head2,.head3
+			{   
+				width:1000px; 
+				margin:0 auto; 
+				position:relative;
+			}
+.head1
+			{
+			 height:250px; 
+			background:url(http://ossweb-img.qq.com/images/jf/act/a20141118index/t_bg1.jpg) no-repeat;
+			}
+.head2
+			{ 
+				height:200px; 
+				background:url(http://ossweb-img.qq.com/images/jf/act/a20141118index/t_bg2.jpg) no-repeat;
+			}
+.logo
+		{   display:block; 
+			position:absolute; 
+			text-indent:-9999px; 
+			width:229px; 
+			height:116px; 
+			left:50px; 
+			top:80px; 
+			background:url(http://ossweb-img.qq.com/images/jf/act/a20141118index/logo.png) no-repeat; z-index:100;
+		}
+.content
+		{   
+			width:1000px; 
+			height:482px; 
+			background:url(http://ossweb-img.qq.com/images/jf/act/a20141118index/c_bg.jpg) no-repeat; 
+			margin:0 auto; 
+			position: relative;
+		}
+.main
+		{   
+			width:719px; 
+			height:293px; 
+			background:url(http://ossweb-img.qq.com/images/jf/act/a20141118index/pic.jpg) no-repeat; 
+			margin-left:3px;
+		}
+.video
+		{ 
+			width:450px;
+ 			height:268px;
+ 			float:left; 
+ 			margin-top:15px; 
+			margin-left:10px; 
+ 			display:inline; 
+ 			background:url(http://ossweb-img.qq.com/images/jf/act/a20141118index/sprit.png) no-repeat 0 0;
+ 	  }
+.play
+		{   
+			width:450px; 
+			height:268px; 
+		}
+.videoPlay
+		{   
+			width:450px; 
+			height:268px;  
+			margin:0 auto; 
+			background:url(http://ossweb-img.qq.com/images/jf/act/a20141118index/video.jpg) no-repeat top center;
+		}
+.videoPlay a
+		{ 
+			width:450px; height:268px; display:block; background:url(http://ossweb-img.qq.com/images/jf/act/a20141118index/icon_play.png) no-repeat center center; -webkit-transition: -webkit-transform 0.2s ease-out;
+-moz-transition: -moz-transform 0.2s ease-out;-o-transition: -o-transform 0.2s ease-out;transition: transform 0.2s ease-out;}
+.videoPlay a:hover{-webkit-transform: scale(1.1);-o-transform: scale(1.1);transform: scale(1.1);}
+.btn-list
+		{ 
+			width:247px; 
+			float:left; 
+			margin:15px 0 0 5px;
+		}
+.btn-list a
+		{
+			width:247px; 
+			display:block;  
+			margin-bottom:1px; 
+			background-image: url(http://ossweb-img.qq.com/images/jf/act/a20141118index/sprit1.png);
+		}
+.btn1
+		{ 
+			height:134px; 
+			background-position: 0 0; 
+			text-align:center; 
+		}
+.btn1 p
+		{
+			font-size:14px; 
+			color:#fff; 
+			text-decoration:none; 
+			padding-top:88px;
+		}
+.btn2
+		{ 
+			height:66px; 
+			background-position:0 -135px; 
+			text-indent:-9999px;
+		}
+.btn3
+		{ 
+			height:66px; 
+			background-position: 0 -202px; 
+			text-indent:-9999px;
+		}
+.banner
+		{ 
+			width:800px; 
+			height:70px; 
+			margin-top:13px; 
+			margin-left:3px;
+		}
+.banner li
+		{ 
+			width:177px; 
+			height:70px; 
+			overflow:hidden; 
+			float:left; 
+			margin-right:4px; 
+			display:inline; 
+			position:relative;
+		}
+.banner li 
+		{ 
+			width:177px; 
+			height:70px; 
+			display:block; 
+			background-image:url(http://ossweb-img.qq.com/images/jf/act/a20141118index/sprit2.png); 
+	text-indent:-9999px; text-decoration:none;
+}
+.banner 
+li p
+		{ 
+			color:#fff; 
+			font-size:14px; 
+			padding:15px 5px 0 15px;
+		}
+.banner1 
+{ 
+	background-position:0 0;
+}
+.banner2 
+{
+ background-position:-178px 0;
+}
+.banner3 
+		{ 
+			background-position:-356px 0;
+		}
+.banner4
+		{ 
+			background-position:-534px 0;
+		}
+		</style>
+	</head>
+<body style="padding-top:42px;">
+	<div id = "tou">
+		<ul class="toubiao">
+			<li class="touli1" title=“腾讯游戏”>
+				<a href = "http://www.baidu.com">腾讯游戏十年
+			</li>
+			<li class="touli2"><img class="ost_nb" id="ost_go" alt="" src="http://ossweb-img.qq.com/htdocs/o2/201411/365969540_783282937_1416301724_230_40.jpg" complete="complete"/>
+			</li>
+			<li id="youli1">
+				<ul id = youbiao>
+					<li id="111">
+						<a href="http://ptlogin2.qq.com/pt4_web_jump?daid=37&amp;appid=21000601&amp;pt4_token=&amp;succ_url=http%3A%2F%2Figame%2Eqq%2Ecom%2Fcenter%2Findex%2Ephp%3Ffirst%3D1%26gid%3D211%26ADTAG%3Dgameweb%2Ejf%2Enavigation%2EToCommunity" target="_blank" class="ost_loglnk">官方社区</a>
+					</li>
+					<li id="112">
+						<a class="ost_gifturl ost_loglnk" href="http://ptlogin2.qq.com/pt4_web_jump?daid=37&amp;appid=21000601&amp;pt4_token=&amp;succ_url=http%3A%2F%2Figame%2Eqq%2Ecom%2Fcenter2%2Fgift%2Findex%2Ephp%3Fgid%3D211%26ADTAG%3Dgameweb%2Ejf%2Enavigation%2Egift" target="_blank">礼包</a>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<div class="moban">
+    <a href="http://jf.qq.com/main.shtml" target="_blank" class="logo" title="疾风之刃">疾风之刃</a> 
+    <div class="header">
+        <div class="head1"></div>
+        <div class="head2">
+            <h1 class="hidden">我要燃尽一切</h1>
+            <p class="hidden">12月3日全民不限号</p>
+        </div>
+    </div>
+    <div class="content">
+        <div class="container">
+            <div class="main clearfix">
+                <div class="video">
+                    <div class="play">
+                    	<div id="hvideoCon0" class="videoPlay">
+                    		<a href="javascript:;" onClick="playVideo('c01417ao53l',0,450, 268);" ></a>
+                    	</div>
+                    </div>
+                </div>
+                <div class="btn-list">
+                    <a href="http://www.baidu.com" class="btn1" target="_blank" title="预约不限号礼包">
+                    	<p>已有<strong>10086</strong>人预约</p>
+                    </a>
+                    <a href="http://www.baidu.com" class="btn2" target="_blank" title="CDKey激活">CDKey激活</a>
+                    <a href="http://www.baidu.com" class="btn3" target="_blank" title="进入官网">进入官网</a>
+                </div>
+            </div>
+            <div class="banner">
+                <ul class="clearfix">
+                    <li class="banner1">
+                        <a href="http://www.baidu.com" target="_blank" title="兄弟啊"></a>
+                    </li>
+                    <li class="banner2">
+                        <a href="http://www.baidu.com" title="我的链接呢？？" target="_blank"></a>
+                    </li>
+                    <li class="banner3"title=什么掉东西>
+                    </li>
+                    <li class="banner4" title=“嘻嘻”>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
